@@ -30,7 +30,7 @@ function subtract() {
 function divide() {
     grabNums()
     const result = num1/num2
-    resultEL.textContent = `Result ${result}`
+    resultEL.textContent = `Result ${Math.round(result)}`
 }
 
 function multiply() {
